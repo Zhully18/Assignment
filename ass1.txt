@@ -1,11 +1,11 @@
- Dot_Product(v1, v2)
+ Create funnction Dot_Product(v1, v2)
     Initialize ps to 0
     For i from 1 to length of v1 do
         ps = ps + (v1[i] * v2[i])
     End For
     Return ps
 
-CheckOrthogonality(n, v1, v2)
+Create function CheckOrthogonality(n, v1, v2)
     For i from 1 to n do
         result = Dot_Product(v1[i], v2[i])
         If result == 0 then
